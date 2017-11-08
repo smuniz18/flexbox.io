@@ -23,7 +23,11 @@
 /* We start writing our flexbox here. The aove is just setup. */
 .container {
     display: flex;
-    border: solid goldenrod;
+    border: 18px solid goldenrod;
     height: 100vh;
-    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 33.33333%;
 }

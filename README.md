@@ -23,3 +23,14 @@ Flex-direction: row-reverse;
 Flex-direction: column-reverse;
 -Flex direction goes from bottom to top in reverse
 
+Flex-wrap: wrap
+
+When we would use is?
+-With this your CSS will try to responsivly adjust to allow for all of the boxes to show. As you stretch the windown more your items will expand till the reach your specific size.
+
+So what does flex-wrap do?
+-It will chop you boxes off to make them fit in the specific width that you had assigned. In doing this you get a resposive design with a box layout that will move at you move your screen!
+
+What is part of the box model and what is not?
+-If you try to adjust the margin your code will break, because it is not part of the box model.
+-For the box model you can adjust the padding and border!
