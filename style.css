@@ -23,11 +23,12 @@
 /* We start writing our flexbox here. The aove is just setup. */
 .container {
     display: flex;
-    border: 18px solid goldenrod;
-    height: 100vh;
-    flex-wrap: wrap;
 }
 
 .box {
-    width: 33.33333%;
+    flex:1;
+}
+
+.box3 {
+    order:1;
 }

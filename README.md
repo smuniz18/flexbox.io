@@ -1,7 +1,7 @@
 # flexbox.io
 
-<!--
-What is a Flexvbox?
+
+What is a Flexbox?
 
 The CSS3 Flexible Box, or flexbox is a layout mode intended to accommodate different screen sizes and different display devices. The display order of flexbox elements is independent of their order in the source code. Popular layouts can thus be achieved more simply and with cleaner code.
 
@@ -34,3 +34,23 @@ So what does flex-wrap do?
 What is part of the box model and what is not?
 -If you try to adjust the margin your code will break, because it is not part of the box model.
 -For the box model you can adjust the padding and border!
+
+Flexbox Ordering
+To create an orders list with a specific level of spacing you can use the following code
+
+.box {
+    flex:1;
+}
+This will space all of your boxes out equally on the screen
+
+The order property can be called by simply using order
+
+.box3 {
+    order:5;
+}
+
+This takes the box that we are currently selcting and moving that specific number to the end. Based on how many you move and what number you select you will move it in a specific order.
+
+1 is the default with 2 being the first-last box, then 3, 4, etc...
+
+If you use a negative number (-3) it will do the opposite putting it in front in reverse order.
