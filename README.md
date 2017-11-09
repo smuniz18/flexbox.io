@@ -80,4 +80,14 @@ baseline - this will make sure that the bottom of any number or letters matches 
 
 7. Alignment and Centering (align-content)
 
+This will align the flex container's lines within when there is extra space in the cross-axis, similar to how justify-content aligns individual items within the main-axis.
+
+The same items that worked in Justify will also work for align content!
+flex-start is the default or align to the left
+flex-end is an option to aline to the right side
+center would center the content in the middle
+space-between seperates the boxes equally to fill the entire width of the display
+space-around divides all content as well as the spacing to the right and the left
+
+8. Alignment and Centering (align-self)
 
