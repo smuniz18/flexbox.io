@@ -2,7 +2,7 @@
 
 .box {
     color: white;
-    font-size: 100px;
+    font-size: 50px;
     text-align: center;
     text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
     padding: 10px;
@@ -23,5 +23,7 @@
 /* We start writing our flexbox here. The aove is just setup. */
 .container {
     display: flex;
-    justify-content: flex-end;
+    border: 10px solid mistyrose;
+    align-items: center;
+    height: 100vh;
 }

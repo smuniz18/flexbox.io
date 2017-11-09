@@ -70,4 +70,14 @@ space-around divides all content as well as the spacing to the right and the lef
 -It will divide up the boxes the same way it does horizontaly
 
 
-6. 
+6. Alignment and Centering (align-items)
+
+Instead on concentrating on the main axis, we are focused on the cross access.
+
+We have the same selectors as in the justify-content section. We can center, flex-start, flex-end, and baseline.
+
+baseline - this will make sure that the bottom of any number or letters matches the bottom of other number or letters.
+
+7. Alignment and Centering (align-content)
+
+
