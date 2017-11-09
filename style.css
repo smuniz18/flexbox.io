@@ -23,12 +23,5 @@
 /* We start writing our flexbox here. The aove is just setup. */
 .container {
     display: flex;
-}
-
-.box {
-    flex:1;
-}
-
-.box3 {
-    order:1;
+    justify-content: flex-end;
 }
