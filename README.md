@@ -91,3 +91,4 @@ space-around divides all content as well as the spacing to the right and the lef
 
 8. Alignment and Centering (align-self)
 
+align-self allows you to change the properties of just one box specifically. From here we can use all of our original line item setting on an individual item instead of the whole container.
