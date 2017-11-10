@@ -35,6 +35,8 @@ What is part of the box model and what is not?
 -If you try to adjust the margin your code will break, because it is not part of the box model.
 -For the box model you can adjust the padding and border!
 
+flex-flow is a shorthand for how we want flex-container and flex-wrap porperties that together define the flex container's main and cross axes.
+
 4. Flexbox Ordering
 To create an orders list with a specific level of spacing you can use the following code
 
@@ -83,12 +85,28 @@ baseline - this will make sure that the bottom of any number or letters matches 
 This will align the flex container's lines within when there is extra space in the cross-axis, similar to how justify-content aligns individual items within the main-axis.
 
 The same items that worked in Justify will also work for align content!
-flex-start is the default or align to the left
-flex-end is an option to aline to the right side
-center would center the content in the middle
-space-between seperates the boxes equally to fill the entire width of the display
-space-around divides all content as well as the spacing to the right and the left
+flex-start (default) items are packed toward the start line
+flex-end items are packed toward the end line
+center items are centered along the line
+space-between items are evenly distributed in the line; first item is on the start line, and last item on the end line
+space-around items are evenly distributed in the line with equal space around them. The first item will have one unit of space against the container edge, but two units of space between the next item becuase the next item has its own spacing that applies
+space-evenly items are distributed to that the spacing between any two items (the space to the edges) is equal
 
 8. Alignment and Centering (align-self)
 
-align-self allows you to change the properties of just one box specifically. From here we can use all of our original line item setting on an individual item instead of the whole container.
+align-self allows the default alignment (or the one specified) to be overridden for individual flex items.
+
+9. Understanding the flex property
+
+use the flex property to scale the specific elements based on the size of the container. This is the additional space that we have avaliable to cut into equal proportions.
+
+10. Flexbox flex-grow, flex-shrink and flex-basis
+
+flex-grow takes the extra space in the container and divides it up by the total number of object in the container.
+
+flex-shrink will take items in a container and shrink them if needed to make them fit into the container
+
+flex-basis defines the default size of an element before the remaining space is distributed
+
+11. When flex-basis and wrapping work together
+
